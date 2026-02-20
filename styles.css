@@ -1,0 +1,129 @@
+/* Todas as class tem breve descrição do que contem, tanto para te auxiliar tanto para eu não me perder ksdksk */
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("https://img.freepik.com/vetores-gratis/estilo-de-papel-linhas-dinamicas-fundo_23-2149008629.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;      /* ocupa a tela toda - att - 19/02/26 */
+    background-position: center; /* centraliza - att - 19/02/26 */
+    background-repeat: no-repeat; /* não repete - att - 19/02/26 */
+    height: 100vh;
+    color: #8281b7;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container2 {
+  display: flex; /* Deixa o texto e a imagem lado a lado */
+  align-items: center; /* Alinha verticalmente no centro */
+  gap: 20px; /* O espaço entre texto e imagem */
+  padding: 20px;
+}
+
+.texto {
+  flex: 1; /* Faz com que o texto e a imagem ocupem ambos metade */
+}
+
+header { /* Distancia entre o texto de apresentação da folha de caderno */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 
+        -1px -1px 0px black,  
+         1px -1px 0px black,
+        -1px  1px 0px black,
+         1px  1px 0px black;
+}
+
+header h1 { /* Distancia entre o bem vindos e o texto de apresentação */
+    font-size: 4em;
+    margin-bottom: 10px;
+    
+}
+
+header p { /* Texto de apresentação */
+    font-size: 1.2em;
+    color: #ffffff;
+   
+    
+}
+            
+nav {               
+    background: rgb(255, 255, 255);
+    padding: 15px; /* Projeto futuro de atalhos */
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 25px;
+    text-decoration: none; /* Projeto futuro de atalhos */
+    font-weight: 500;
+}
+
+section { /* Posição de Sobre, informação e contatos */
+    margin-bottom: 40px;
+}           
+                        
+section h2 { /* Sobre, Informação e contato */
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-left: 60px;
+    text-shadow: 
+        -1px -1px 0px black,  
+         1px -1px 0px black,
+        -1px  1px 0px black,
+         1px  1px 0px black;
+}
+
+section p , section ul { /* Cor e fonte dos conteúdo do Sobre, informação e contato */
+    font-size: 1.1em;
+    color: #000000;
+   
+}
+
+section ul { /* Posição dos conteúdo do Sobre, informação e contato */
+    list-style: none;
+    padding-left: 0;
+    margin-left: 60px;
+}
+
+section ul li { /* Espaço entre os conteúdo do Sobre, informação e contato */
+    margin-bottom: 5px;
+    
+}
+
+footer { /* Direitos autorais */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #8281b7;
+    text-shadow: 
+    -1px -1px 0px black,  
+     1px -1px 0px black,
+    -1px  1px 0px black,
+     1px  1px 0px black;
+}
+
+.card { /*Fundo de papel */
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-papel-desenhado-a-mao-com-revestimento-azul_23-2151105441.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+@media (max-width:600px) { /* Att - 19/02/2026 - Responsivo (celular) */
+   h1 { font-size: 24px; }
+   .container { padding: 10px; }
+}
